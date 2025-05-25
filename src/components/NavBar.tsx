@@ -1,7 +1,6 @@
 import {Link} from "react-router-dom";
-
+import '../styles/NavBar.css'
 const NavBar = () => {
-
     const links: string[] = ["Home","About"]
 
     return(
