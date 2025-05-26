@@ -1,71 +1,124 @@
-import '../App.css'
-const HomePage = () => {
+import React from 'react';
+import '../styles/Home.css';
+
+const Home: React.FC = () => {
     return (
-        <div className="container">
-
-            <header className="header">
-                <div className="logo">
-                    <span className="logo-d">T</span><span className="logo-f">A</span>
-                </div>
-                {/*<nav className="nav">*/}
-                {/*    <a href="#projects" className="nav-link">Projects</a>*/}
-                {/*    <a href="#resume" className="nav-link">Resume</a>*/}
-                {/*    <a href="#contact" className="nav-link">Contact me</a>*/}
-                {/*</nav>*/}
-            </header>
-
-
-            <main className="main">
-                <div className="content">
-                    <h1 className="title">
-                        Hi:) I'm <span className="name">Asha</span><br/>
-                        a FullStack Developer
-                    </h1>
-
-                    <p className="description">
-                        With three years of experience in Marketing design in addition to full studies in User
-                        Experience, I aim to make your next best impactful designs
-                    </p>
-
-                    <div className="buttons">
-                        <button className="btn btn-primary">See the projects</button>
-                        <button className="btn btn-secondary">Go to cv</button>
+        <div className="home">
+            <div className="hero-section">
+                <div className="hero-content">
+                    <div className="hero-text">
+                        <h1 className="hero-title">
+                            <span className="greeting">Hello, I'm</span>
+                            <span className="name">Thathshila Ashanganie</span>
+                        </h1>
+                        <p className="hero-subtitle">
+                            Full Stack Developer & Creative Problem Solver
+                        </p>
+                        <p className="hero-description">
+                            I craft beautiful, functional web experiences that bring ideas to life.
+                            Passionate about clean code, innovative design, and building solutions that make a difference.
+                        </p>
+                        <div className="hero-buttons">
+                            <button className="btn-primary">View My Work</button>
+                            <button className="btn-secondary">Get In Touch</button>
+                        </div>
                     </div>
-
-                    <div className="social-links">
-                        <a href="#" className="social-link">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                <path
-                                    d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round"/>
-                                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"
-                                          stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                        <a href="#" className="social-link">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                <path d="M16 8A6 6 0 0 1 6 8V21H4V8A8 8 0 0 1 20 8V21H18V8Z" fill="currentColor"/>
-                                <circle cx="12" cy="4" r="2" fill="currentColor"/>
-                            </svg>
-                        </a>
-                        <a href="#" className="social-link">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                <path
-                                    d="M21 15.46L5.27 21.69C4.91 21.81 4.54 21.53 4.66 21.17L10.89 5.44C11.01 5.08 11.53 5.08 11.65 5.44L17.88 21.17C18 21.53 17.63 21.81 17.27 21.69L1.54 15.46C1.18 15.34 1.18 14.82 1.54 14.7L17.27 8.47C17.63 8.35 18 8.63 17.88 8.99L11.65 24.72C11.53 25.08 11.01 25.08 10.89 24.72L4.66 8.99C4.54 8.63 4.91 8.35 5.27 8.47L21 14.7C21.36 14.82 21.36 15.34 21 15.46Z"
-                                    fill="currentColor"/>
-                            </svg>
-                        </a>
+                    <div className="hero-image">
+                        <div className="code-visualization">
+                            <div className="code-window">
+                                <div className="window-header">
+                                    <div className="window-controls">
+                                        <span className="control red"></span>
+                                        <span className="control yellow"></span>
+                                        <span className="control green"></span>
+                                    </div>
+                                    <span className="window-title">portfolio.tsx</span>
+                                </div>
+                                <div className="code-content">
+                                    <div className="code-line">
+                                        <span className="line-number">1</span>
+                                        <span className="code-text">
+            <span className="keyword">const</span> <span className="variable">developer</span> = {"{"}
+          </span>
+                                    </div>
+                                    <div className="code-line">
+                                        <span className="line-number">2</span>
+                                        <span className="code-text">
+            &nbsp;&nbsp;<span className="property">passion</span>: <span className="string">'coding'</span>,
+          </span>
+                                    </div>
+                                    <div className="code-line">
+                                        <span className="line-number">3</span>
+                                        <span className="code-text">
+            &nbsp;&nbsp;<span className="property">skills</span>: <span className="string">'unlimited'</span>
+          </span>
+                                    </div>
+                                    <div className="code-line">
+                                        <span className="line-number">4</span>
+                                        <span className="code-text">{"}"}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="floating-tech-icons">
+                                <div className="tech-icon tech-icon-1">
+                                    <span>{'<>'}</span>
+                                </div>
+                                <div className="tech-icon tech-icon-2">
+                                    <span>{'{}'}</span>
+                                </div>
+                                <div className="tech-icon tech-icon-3">
+                                    <span>⚛️</span>
+                                </div>
+                                <div className="tech-icon tech-icon-4">
+                                    <span>💻</span>
+                                </div>
+                                <div className="tech-icon tech-icon-5">
+                                    <span>🚀</span>
+                                </div>
+                                <div className="tech-icon tech-icon-6">
+                                    <span>⚡</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </main>
+            </div>
 
+            <div className="skills-section">
+                <h2 className="section-title">Technologies I Love</h2>
+                <div className="skills-grid">
+                    <div className="skill-item">
+                        <div className="skill-icon">⚛️</div>
+                        <h3>React</h3>
+                        <p>Building interactive UIs</p>
+                    </div>
+                    <div className="skill-item">
+                        <div className="skill-icon">🚀</div>
+                        <h3>Node.js</h3>
+                        <p>Server-side development</p>
+                    </div>
+                    <div className="skill-item">
+                        <div className="skill-icon">🎨</div>
+                        <h3>CSS/SASS</h3>
+                        <p>Styling & animations</p>
+                    </div>
+                    <div className="skill-item">
+                        <div className="skill-icon">📱</div>
+                        <h3>TypeScript</h3>
+                        <p>Type-safe development</p>
+                    </div>
+                </div>
+            </div>
 
-            <div className="bg-shapes">
-                <div className="shape shape-1"></div>
-                <div className="shape shape-2"></div>
+            <div className="cta-section">
+                <div className="cta-content">
+                    <h2>Let's Build Something Amazing Together</h2>
+                    <p>I'm always excited to work on new projects and collaborate with creative minds.</p>
+                    <button className="btn-cta">Start a Conversation</button>
+                </div>
             </div>
         </div>
-    )
-}
-export default HomePage
+    );
+};
+
+export default Home;
