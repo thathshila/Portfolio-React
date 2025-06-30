@@ -1,0 +1,89 @@
+/* project.css */
+
+.projects-section {
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.project-image-wrapper {
+    height: 180px;
+    overflow: hidden;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.project-content {
+    padding: 16px;
+}
+
+.project-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.project-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.project-tag {
+    background: #d0e8ff;
+    color: #0056b3;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.project-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-overlay a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.project-overlay a:hover {
+    color: #ccc;
+}

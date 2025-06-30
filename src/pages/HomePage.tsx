@@ -107,6 +107,46 @@ const Home: React.FC = () => {
                         <h3>TypeScript</h3>
                         <p>Type-safe development</p>
                     </div>
+
+                    <div className="skill-item">
+                        <div className="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>Dynamic web development</p>
+                    </div>
+
+                    <div className="skill-item">
+                        <div className="skill-icon">☕</div>
+                        <h3>Java</h3>
+                        <p>Enterprise applications</p>
+                    </div>
+
+                    <div className="skill-item">
+                        <div className="skill-icon">🔥</div>
+                        <h3>Python</h3>
+                        <p>Data science & automation</p>
+                    </div>
+                    <div className="skill-item">
+                        <div className="skill-icon">🔧</div>
+                        <h3>SQL</h3>
+                        <p>Database management</p>
+                    </div>
+
+                    <div className="skill-item">
+                        <div className="skill-icon">🐳</div>
+                        <h3>Docker</h3>
+                        <p>Containerization</p>
+                    </div>
+
+                    <div className="skill-item">
+                        <div className="skill-icon">☁️</div>
+                        <h3>AWS</h3>
+                        <p>Cloud infrastructure</p>
+                    </div>
+                    <div className="skill-item">
+                        <div className="skill-icon">🌐</div>
+                        <h3>HTML/CSS</h3>
+                        <p>Web structure & styling</p>
+                    </div>
                 </div>
             </div>
 

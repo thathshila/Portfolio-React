@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import '../styles/NavBar.css'
 const NavBar = () => {
-    const links: string[] = ["Home","About","Projects","Contact"]
+    const links: string[] = ["Home","About","Project","Contact"]
 
     return(
         <div className="nav">

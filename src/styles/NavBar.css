@@ -11,7 +11,7 @@
     top: 0;
     z-index: 1000;
     transition: all 0.3s ease;
-    background-color: #ad7fe4;
+    background: linear-gradient(135deg, #c624c3 0%, #171a23 100%);
 }
 
 .nav a {
@@ -33,7 +33,7 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(45deg, #c62498 0%, #9e6ad8 100%);
     transition: left 0.3s ease;
     z-index: -1;
 }
