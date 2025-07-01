@@ -1,7 +1,18 @@
 import React from 'react';
 import '../styles/Home.css';
+import { useNavigate } from "react-router-dom";
 
 const Home: React.FC = () => {
+    const navigate = useNavigate();
+
+    const handleViewMyWork = () => {
+        navigate("/project");
+    };
+
+    const handleGetInTouch = () => {
+        navigate("/contact");
+    };
+
     return (
         <div className="home">
             <div className="hero-section">
@@ -19,8 +30,8 @@ const Home: React.FC = () => {
                             Passionate about clean code, innovative design, and building solutions that make a difference.
                         </p>
                         <div className="hero-buttons">
-                            <button className="btn-primary">View My Work</button>
-                            <button className="btn-secondary">Get In Touch</button>
+                            <button className="btn-primary"  onClick={handleViewMyWork}>View My Work</button>
+                            <button className="btn-secondary" onClick={handleGetInTouch}>Get In Touch</button>
                         </div>
                     </div>
                     <div className="hero-image">

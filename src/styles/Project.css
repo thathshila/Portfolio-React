@@ -2,7 +2,7 @@
 
 .projects-section {
     padding: 50px;
-    background: #f0f0f0;
+    background: linear-gradient(135deg, rgba(196, 68, 211, 0.8) 0%, #1cafbd 100%);
 }
 
 .projects-title {

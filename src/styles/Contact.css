@@ -2,7 +2,7 @@
 
 .contact-section {
     padding: 80px 20px;
-    background: #f9f9f9;
+    background: #d67ebf;
     color: #333;
     min-height: 100vh;
     display: flex;
@@ -39,13 +39,13 @@
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: #3498db;
+    background: rgba(196, 68, 211, 0.8);
     border-radius: 2px;
 }
 
 .contact-subtitle {
     font-size: 1.1rem;
-    color: #7f8c8d;
+    color: #ffffff;
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.6;
@@ -82,7 +82,7 @@
 
 .info-icon {
     font-size: 1.5rem;
-    color: #3498db;
+    color: #c7a7ef;
     background: #e3f2fd;
     width: 50px;
     height: 50px;
@@ -166,7 +166,7 @@
 
 .submit-btn {
     padding: 15px 30px;
-    background: #3498db;
+    background: rgb(11, 32, 96);
     color: white;
     border: none;
     border-radius: 6px;
@@ -182,7 +182,7 @@
 }
 
 .submit-btn:hover {
-    background: #2980b9;
+    background: #c62498;
     transform: translateY(-2px);
 }
 

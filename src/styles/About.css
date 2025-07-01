@@ -16,7 +16,7 @@
 
 .tagline {
     font-size: 1.2rem;
-    color: rgba(203, 148, 211, 0.8);
+    color: rgb(255, 255, 255);
 }
 
 .about-content {
@@ -51,7 +51,7 @@
 h2 {
     font-size: 1.8rem;
     margin: 1.5rem 0 1rem;
-    color: #ffffff;
+    color: #171a23;
 }
 
 .skills-list {
