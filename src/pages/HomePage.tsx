@@ -165,7 +165,9 @@ const Home: React.FC = () => {
                 <div className="cta-content">
                     <h2>Let's Build Something Amazing Together</h2>
                     <p>I'm always excited to work on new projects and collaborate with creative minds.</p>
-                    <button className="btn-cta">Start a Conversation</button>
+                    <button className="btn-cta" onClick={handleGetInTouch}>
+                        Start a Conversation
+                    </button>
                 </div>
             </div>
         </div>

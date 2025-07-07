@@ -8,59 +8,59 @@ const projects = [
         title: "E-commerce Platform",
         description: "A full-stack e-commerce solution with React and Node.js",
         tags: ["JavaEE", "Jsp"],
-        image: "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg",
-        githubLink: "https://github.com/yourusername/ecommerce-platform",
-        youtubeLink: "https://youtube.com/watch?v=example1"
+        image: "https://www.servcorp.co.uk/media/34561/e-commerce-img.jpeg?format=webp&quality=70&width=688",
+        githubLink: "https://github.com/thathshila/AAD-E-Platform.git",
+        youtubeLink: "https://youtu.be/zcd4DC5CL-8?si=FTJ_i-IXm4O21lNM"
     },
     {
         id: 2,
         title: "Portfolio Website",
         description: "A responsive portfolio built with modern web technologies",
         tags: ["React", "Tailwind CSS", "Vite"],
-        image: "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg",
-        githubLink: "https://github.com/yourusername/portfolio-website"
+        image: "https://neoresid-v2-dev.s3.eu-west-3.amazonaws.com/media/articles/1580585802565.jpg",
+        githubLink: "https://github.com/thathshila/Portfolio-React.git"
     },
     {
         id: 3,
         title: "Culinary Academy",
         description: "A productivity app for organizing daily tasks",
         tags: ["Hibernate"],
-        image: "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg",
-        githubLink: "https://github.com/yourusername/task-management-app"
+        image: "https://softwaresuggest-cdn.s3-ap-southeast-1.amazonaws.com/pageimages/Student-Management-System-Guide-min.png",
+        githubLink: "https://github.com/thathshila/ORM_Hibernate_project.git"
     },
     {
         id: 4,
-        title: "MeetUpPro",
-        description: "Real-time Online Appointment Platform with Spring",
+        title: "Netwave",
+        description: "Real-time Mobile service Platform with Spring",
         tags: ["JavaScript", "Html", "Spring"],
-        image: "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg",
-        githubLink: "https://github.com/yourusername/weather-dashboard",
-        youtubeLink: "https://youtu.be/gSRSuErWX0g"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShycEn80SnSiOiovg8_NNswa4FjGBUAtN20IFdqV5z9Qhh3jQZVx1s-USLw1NC3QU6DEE&usqp=CAU",
+        githubLink: "https://github.com/thathshila/AAD-final-project.git",
+        youtubeLink: "https://youtu.be/sB_rzL6sZmc?si=ceMS48Q_-F7Tt1O7"
     },
     {
         id: 5,
-        title: "E-commerce Platform",
-        description: "A full-stack e-commerce solution with React and Node.js",
-        tags: ["JavaEE", "Jsp"],
-        image: "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg",
-        githubLink: "https://github.com/yourusername/ecommerce-platform",
-        youtubeLink: "https://youtube.com/watch?v=example1"
+        title: "ORM Culinary Academy System",
+        description: "An object-oriented management system for culinary academy course enrollments, scheduling, and payment tracking.",
+        tags: ["Java", "ORM", "Hibernate"],
+        image: "https://i.ytimg.com/vi/J3EsN9LAhT8/maxresdefault.jpg", // Replace with your system screenshot if available
+        githubLink: "https://github.com/thathshila/ORM-Final-Project.git",
+        youtubeLink: "https://youtu.be/q-hAjcYqMgs?si=IspguYgYrJIUNuyN"
     },
     {
         id: 6,
-        title: "Portfolio Website",
-        description: "A responsive portfolio built with modern web technologies",
-        tags: ["React", "Tailwind CSS", "Vite"],
-        image: "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg",
-        githubLink: "https://github.com/yourusername/portfolio-website"
+        title: "Smart Vehicle Parking System",
+        description: "A real-time vehicle parking management system using modern web and backend technologies.",
+        tags: ["Doker Hub", "Eureka Cloud", "Micro Service"],
+        image: "https://media.licdn.com/dms/image/v2/D4D12AQGhAiILEefpyw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1708558686613?e=2147483647&v=beta&t=G1CEyBLgZg1LPMFmaWs1J-jbN0vq4bko1lhtQEyAVfE", // Replace with your actual system screenshot later
+        githubLink: "https://github.com/thathshila/Vehicle-Parking-Management-System.git"
     },
     {
         id: 7,
-        title: "Culinary Academy",
-        description: "A productivity app for organizing daily tasks",
-        tags: ["Hibernate"],
-        image: "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg",
-        githubLink: "https://github.com/yourusername/task-management-app"
+        title: "Portfolio",
+        description: "A responsive portfolio built with modern web technologies",
+        tags: ["HTML","CSS","Java Script"],
+        image: "https://static.resumegiants.com/wp-content/uploads/sites/25/2022/06/09105622/Professional-portfolio-1040x694.webp",
+        githubLink: "https://github.com/thathshila/portfolio_new.git"
     },
     {
         id: 8,
