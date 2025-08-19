@@ -149,15 +149,21 @@ const Home: React.FC = () => {
                     </div>
 
                     <div className="skill-item">
-                        <div className="skill-icon">☁️</div>
-                        <h3>AWS</h3>
-                        <p>Cloud infrastructure</p>
+                        <div className="skill-icon">⚛️</div>
+                        <h3>React Native</h3>
+                        <p>Mobile Application Development</p>
                     </div>
                     <div className="skill-item">
                         <div className="skill-icon">🌐</div>
                         <h3>HTML/CSS</h3>
                         <p>Web structure & styling</p>
                     </div>
+                    <div className="skill-item">
+                        <div className="skill-icon">🌿</div>
+                        <h3>MongoDB</h3>
+                        <p>NoSQL Database</p>
+                    </div>
+
                 </div>
             </div>
 

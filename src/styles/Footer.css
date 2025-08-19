@@ -207,6 +207,17 @@
     animation: heartbeat 2s ease-in-out infinite;
 }
 
+.social-links .icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff; /* or your theme color */
+    transition: color 0.3s;
+}
+
+.social-links .icon:hover {
+    color: #0077b5; /* LinkedIn blue, or different per icon */
+}
+
 @keyframes heartbeat {
     0% { transform: scale(1); }
     50% { transform: scale(1.1); }

@@ -1,4 +1,6 @@
-import '../styles/Footer.css'
+import '../styles/Footer.css';
+import { FaGithub, FaLinkedin, FaMedium, FaEnvelope } from 'react-icons/fa';
+
 const Footer = () => {
     return (
         <footer className="site-footer">
@@ -7,16 +9,16 @@ const Footer = () => {
                     <h3>Let's Connect</h3>
                     <div className="social-links">
                         <a href="https://github.com/thathshila" target="_blank" rel="noopener noreferrer">
-                            <span className="icon">GitHub</span>
+                            <FaGithub className="icon" />
                         </a>
                         <a href="https://www.linkedin.com/in/thathshila-ashanganie-93796331a/" target="_blank" rel="noopener noreferrer">
-                            <span className="icon">LinkedIn</span>
+                            <FaLinkedin className="icon" />
                         </a>
                         <a href="https://medium.com/@thathshilaashanganie9501" target="_blank" rel="noopener noreferrer">
-                            <span className="icon">Medium</span>
+                            <FaMedium className="icon" />
                         </a>
                         <a href="mailto:thathshilaashanganie9501@gmail.com">
-                            <span className="icon">Email</span>
+                            <FaEnvelope className="icon" />
                         </a>
                     </div>
                 </div>
@@ -33,7 +35,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-bottom">
-                <p>&copy; {new Date().getFullYear()} Thathshila  Ashanganie. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Thathshila Ashanganie. All rights reserved.</p>
             </div>
         </footer>
     );

@@ -195,11 +195,11 @@ const projects = [
     },
     {
         id: 8,
-        title: "MeetUpPro",
-        description: "Real-time Online Appointment Platform with Spring",
-        tags: ["JavaScript", "Html", "Spring"],
-        image: "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg",
-        githubLink: "https://github.com/yourusername/weather-dashboard",
+        title: "BookClub",
+        description: "A Library manage with JWT Auth, manage books, readers, and lending.",
+        tags: ["MongoDB", "Express.JS", "React", "Node.JS"],
+        image: "https://files.codingninjas.in/article_images/custom-upload-1681454804.webp",
+        githubLink: "https://github.com/thathshila/Book-Club-Backend.git",
         youtubeLink: "https://youtu.be/gSRSuErWX0g"
     }
 ];
