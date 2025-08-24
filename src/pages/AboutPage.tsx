@@ -1,6 +1,6 @@
 import '../styles/About.css'
 import '../App.css'
-import profileImage from '../assets/IMG_9080.JPG'
+import profileImage from '../../public/IMG_9080.JPG'
 
 const AboutPage = () => {
 
