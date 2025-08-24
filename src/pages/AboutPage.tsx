@@ -1,6 +1,9 @@
 import '../styles/About.css'
 import '../App.css'
+import profileImage from '../assets/IMG_9080.JPG'
+
 const AboutPage = () => {
+
     return (
         <div className="about-container">
             <section className="about-header">
@@ -38,7 +41,7 @@ const AboutPage = () => {
 
                 <div className="about-image">
                     <div className="profile-image-placeholder"
-                         style={{backgroundImage: 'url(/src/assets/IMG_9080.JPG)'}}>
+                         style={{backgroundImage: `url(${profileImage})`}}>
                     </div>
                 </div>
             </section>
